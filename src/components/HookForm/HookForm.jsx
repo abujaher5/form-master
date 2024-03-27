@@ -1,7 +1,7 @@
 import useInputState from "../../hooks/useInputState";
 
 const HookForm = () => {
-  //   const [name, handleNameChange] = useInputState("Rojoni hooked");
+  const [name, handleNameChange] = useInputState("Rojoni hooked");
 
   const handleSubmit = (e) => {
     e.preventDefault();
